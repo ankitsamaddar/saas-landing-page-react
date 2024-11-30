@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const Marker = ({ fill }) => {
   return (
     <svg
