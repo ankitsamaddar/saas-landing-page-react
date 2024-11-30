@@ -16,6 +16,7 @@ const Header = () => {
     };
   }, []);
 
+  // eslint-disable-next-line react/prop-types
   const NavLink = ({ title }) => (
     <LinkScroll
       onClick={() => setIsOpen(false)}

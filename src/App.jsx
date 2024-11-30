@@ -1,6 +1,7 @@
 import Header from './sections/header.jsx';
 import Hero from './sections/hero.jsx';
 import Features from './sections/features.jsx';
+import Pricing from './sections/pricing.jsx';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Hero />
       <Features />
+      <Pricing />
     </main>
   );
 };
