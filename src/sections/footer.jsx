@@ -14,6 +14,15 @@ const Footer = () => {
               <p className="legal-after relative mr-9 text-p5 transition-all duration-500 hover:text-p1">
                 Terms of Use
               </p>
+              <p className="legal-after relative mr-9 text-p5 transition-all duration-500 hover:text-p1">
+                <a
+                  href="https://github.com/ankitsamaddar/xora-landing-page-react"
+                  title="View Source"
+                  target="_blank"
+                >
+                  View Source
+                </a>
+              </p>
             </div>
           </div>
           <ul className="flex flex-1 justify-center gap-3 max-md:mt-10 md:justify-end py-6 mr-6">
