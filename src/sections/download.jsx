@@ -1,4 +1,3 @@
-import React from 'react';
 import { Element } from 'react-scroll';
 import { links, logos } from '../constants/index.jsx';
 import Marker from '../components/marker.jsx';
@@ -14,12 +13,7 @@ const Download = () => {
           <div className="flex items-center">
             <div className="relative mr-6 flex-540 max-xl:flex-200 max-lg:flex-256 max-md:flex-100">
               <div className="mb-10">
-                <img
-                  src="/images/xora.svg"
-                  width={160}
-                  height={55}
-                  alt="xora"
-                />
+                <img src="images/xora.svg" width={160} height={55} alt="xora" />
               </div>
               <p className="body-1 mb-10 max-w-md">
                 Try it now for free on IOS, Android, PC, Web - whatever your
@@ -42,7 +36,7 @@ const Download = () => {
                         <Marker />
                       </span>
                       <img
-                        src={'/images/lines.svg'}
+                        src={'images/lines.svg'}
                         alt="lines"
                         className="absolute size-13/20 object-contain"
                       />
@@ -63,11 +57,10 @@ const Download = () => {
                   <span className="download_preview-dot left-11 bg-s3" />
                   <span className="download_preview-dot left-16 bg-p1/15" />
                   <img
-                    src={'/images/screen.jpg'}
+                    src={'images/screen.jpg'}
                     alt="screen"
                     width={855}
                     height={655}
-                    alt="screen"
                     className="rounded-xl"
                   />
                 </div>
@@ -75,15 +68,9 @@ const Download = () => {
             </div>
           </div>
           <ul className="mt-24 flex justify-center max-lg:hidden">
-            {logos.map(({ id, url, width, height, title }) => (
+            {logos.map(({ id, url, width, height }) => (
               <li key={id} className="mx-10">
-                <img
-                  src={url}
-                  alt="logo"
-                  width={width}
-                  height={height}
-                  alt="logo"
-                />
+                <img src={url} width={width} height={height} alt="logo" />
               </li>
             ))}
           </ul>

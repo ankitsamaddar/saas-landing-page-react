@@ -22,7 +22,7 @@ const Hero = () => {
               and surprisingly powerful.{' '}
             </p>
             <LinkScroll to={'features'} offset={-100} spy smooth>
-              <Button icon={'/images/zap.svg'}>Try It Now</Button>
+              <Button icon={'images/zap.svg'}>Try It Now</Button>
             </LinkScroll>
           </div>
 
@@ -32,7 +32,7 @@ const Hero = () => {
             }
           >
             <img
-              src={'/images/hero.png'}
+              src={'images/hero.png'}
               alt="Hero"
               className={'size-1230 max-lg:h-auto'}
             />
