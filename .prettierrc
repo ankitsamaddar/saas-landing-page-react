@@ -1,0 +1,10 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "plugins": ["@yikes2000/prettier-plugin-merge-extras"],
+  "returnParentheses": true
+}
