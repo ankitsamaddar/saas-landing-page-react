@@ -3,6 +3,7 @@ import Hero from './sections/hero.jsx';
 import Features from './sections/features.jsx';
 import Pricing from './sections/pricing.jsx';
 import Faq from './sections/faq.jsx';
+import Testimonials from './sections/testimonials.jsx';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Features />
       <Pricing />
       <Faq />
+      <Testimonials />
     </main>
   );
 };
