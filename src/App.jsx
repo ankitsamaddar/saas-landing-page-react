@@ -4,6 +4,7 @@ import Features from './sections/features.jsx';
 import Pricing from './sections/pricing.jsx';
 import Faq from './sections/faq.jsx';
 import Testimonials from './sections/testimonials.jsx';
+import Download from './sections/download.jsx';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Pricing />
       <Faq />
       <Testimonials />
+      <Download />
     </main>
   );
 };
