@@ -26,7 +26,7 @@ const Download = () => {
                 flavour, we&#39;ve got you covered!
               </p>
               <ul className="flex flex-wrap items-center gap-6">
-                {links.map(({ id, url, icon }) => (
+                {links.map(({ id, url, icon, title }) => (
                   <li
                     key={id}
                     className={
@@ -35,6 +35,7 @@ const Download = () => {
                   >
                     <a
                       href={url}
+                      title={title}
                       className="size-22 download_tech-icon_before relative flex items-center justify-center rounded-half border-2 border-s3 bg-s1 transition-borderColor duration-500 hover:border-s4"
                     >
                       <span className="absolute -top-2 rotate-90">

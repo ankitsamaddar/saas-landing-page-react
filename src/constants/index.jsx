@@ -404,3 +404,25 @@ export const logos = [
     height : 48,
   },
 ];
+
+// Footer Socials
+export const socials = [
+  {
+    id    : '0',
+    title : 'x',
+    icon  : '/images/socials/x.svg',
+    url   : 'https://x.com/ankitsamaddar_',
+  },
+  {
+    id    : '1',
+    title : 'Github',
+    icon  : '/images/socials/github.svg',
+    url   : 'https://github.com/ankitsamaddar',
+  },
+  {
+    id    : '2',
+    title : 'LinkedIn',
+    icon  : '/images/socials/linkedin.svg',
+    url   : 'https://linkedin.com/in/ankitsamaddar',
+  },
+];
