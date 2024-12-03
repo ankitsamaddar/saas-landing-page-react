@@ -10,7 +10,7 @@ on:
       - "package-lock.json"
 
 jobs:
-  build and deploy:
+  deploy:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
